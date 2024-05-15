@@ -33,8 +33,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
     @Resource
     private UserMapper userMapper;
 
-    // https://www.code-nav.cn/
-
     /**
      * 盐值，混淆密码
      */
